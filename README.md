@@ -8,7 +8,7 @@ Clone the [KrakenD-CE](https://github.com/devopsfaith/krakend-ce) repository and
 
 ```diff
 import (
-+    "github.com/ifaisalalam/krakend-gin-logger"
++    "github.com/dlutay/krakend-gin-logger"
 )
 
 // NewEngine creates a new gin engine with some default values and a secure middleware
@@ -30,7 +30,7 @@ In KrakenD's `configuration.json` file, add the following to the service `extra_
 ```json5
 {
   "extra_config": {
-    "github_com/ifaisalalam/krakend-gin-logger": {
+    "github_com/dlutay/krakend-gin-logger": {
       "enabled": true
     }
   }
@@ -46,7 +46,7 @@ Example:
 ```json5
 {
   "extra_config": {
-    "github_com/ifaisalalam/krakend-gin-logger": {
+    "github_com/dlutay/krakend-gin-logger": {
       "enabled": true,
       "skip_paths": ["/__health", "/api/ignore"]
     }
@@ -74,7 +74,7 @@ The module can also be used with Logstash. Simply enable Logstash in the service
       "format": "custom",
       "custom_format": "%{message}"
     },
-    "github_com/ifaisalalam/krakend-gin-logger": {
+    "github_com/dlutay/krakend-gin-logger": {
       "enabled": true
     }
   }

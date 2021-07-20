@@ -17,7 +17,7 @@ import (
 )
 
 const (
-	Namespace  = "github_com/ifaisalalam/krakend-gin-logger"
+	Namespace  = "github_com/dlutay/krakend-gin-logger"
 	moduleName = "krakend-gin-logger"
 )
 
