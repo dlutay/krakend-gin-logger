@@ -16,8 +16,8 @@ import (
 
 	gologging "github.com/devopsfaith/krakend-gologging"
 	logstash "github.com/devopsfaith/krakend-logstash"
-	"github.com/devopsfaith/krakend/config"
-	"github.com/devopsfaith/krakend/logging"
+	"github.com/luraproject/krakend/config"
+	"github.com/luraproject/krakend/logging"
 	"github.com/gin-gonic/gin"
 )
 
