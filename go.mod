@@ -1,4 +1,4 @@
-module github.com/ifaisalalam/krakend-gin-logger
+module github.com/dlutay/krakend-gin-logger
 
 go 1.15
 
