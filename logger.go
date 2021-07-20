@@ -50,6 +50,7 @@ func (f Formatter) DefaultFormatter(params gin.LogFormatterParams) string {
 		"client_ip":          params.ClientIP,
 		"latency":            params.Latency,
 		"response_timestamp": params.TimeStamp,
+		"error_message":      params.ErrorMessage,
 	}
 
 	payload := map[string]interface{}{
